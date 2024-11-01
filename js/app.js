@@ -23,7 +23,7 @@ function resetSetting() {
 
 function generateFilter() {
 	const { brightness, saturation, blur, inversion } = settings;
-	return `brightness(${brightness}%) saturate(${saturation}%) blur(${blur}px) invert(${inversion}%)`
+	return `brightness(${brightness}%) saturate(${saturation}%) blur(${blur}px) invert(${inversion}%)`;
 }
 
 function renderImage() {
